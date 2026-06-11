@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  serverExternalPackages: ["tesseract.js", "canvas", "pdf-to-img"],
 };
 
 export default nextConfig;
